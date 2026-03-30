@@ -1,0 +1,29 @@
+<html>
+  <head><title></title>
+  <style>
+  body{
+    background-color: #49569e;
+  }
+    .img{
+      height: 150px;
+      width: 100px;
+      transform-style: preserve-3d;
+      transition:transform 2s, transform 3s;
+      border: solid black;
+      box-shadow: 2px 2px 4px;
+      border-radius: 30px;
+
+    .img:hover{
+    transform: rotateX(180deg);
+    transform:skew(40deg);
+    }
+    .file{
+      background-color: #a8a5ff;
+    }
+  </style>
+  </head>
+  <body>
+    <img src="krish2.jpg" class="img">
+    <input type="file" class="file">
+  </body>
+</html>
